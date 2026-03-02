@@ -54,7 +54,7 @@ cp .env.example .env
 2. Configure:
 
 ```env
-VITE_API_URL=http://localhost:3000
+VITE_API_URL=https://mini-kanban-backend.vercel.app
 ```
 
 ## Como instalar
