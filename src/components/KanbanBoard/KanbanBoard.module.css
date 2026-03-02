@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  gap: 16px;
+  min-height: calc(100vh - 120px);
+  overflow-x: auto;
+  padding: 8px 0;
+}
+
+.emptyContainer {
+  align-items: center;
+  background: #f9fafb;
+  border: 1px dashed #d1d5db;
+  border-radius: 12px;
+  color: #4b5563;
+  display: grid;
+  justify-items: center;
+  margin-top: 16px;
+  min-height: 260px;
+  padding: 20px;
+  text-align: center;
+}
+
+.emptyContainer h2 {
+  color: #111827;
+  margin: 0 0 8px;
+}
+
+.emptyContainer p {
+  margin: 0;
+}
+
+.loadingContainer {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.columnSkeleton {
+  animation: pulse 1.3s infinite ease-in-out;
+  background: #e5e7eb;
+  border-radius: 12px;
+  height: 360px;
+  width: 280px;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+}

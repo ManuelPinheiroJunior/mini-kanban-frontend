@@ -1,0 +1,54 @@
+.card,
+.dragging {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 8%);
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+}
+
+.dragging {
+  border-color: #2563eb;
+  box-shadow: 0 8px 20px rgb(37 99 235 / 20%);
+  opacity: 0.8;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.title {
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.description {
+  color: #4b5563;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.deleteButton {
+  background: transparent;
+  border: none;
+  color: #dc2626;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.dragHandle {
+  background: #eff6ff;
+  border: 1px dashed #93c5fd;
+  border-radius: 8px;
+  color: #1d4ed8;
+  cursor: grab;
+  font-size: 0.75rem;
+  justify-self: start;
+  padding: 6px 10px;
+}
